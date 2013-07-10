@@ -10,4 +10,4 @@ for rails test
 2. rails g scaffold User name:string avatar:string  
    (加入root路径,删除public/index.html后依然无法启动,看log发现是没有执行rake db:create; rake db:migrate. ok 一切正常)  
 3. 在Gemfile中加入gem "paperclip", "~> 3.0", sources改成taobao的果然很快.  
-4. rails g paperclip user avatar,按照github上的提示走.   
+4. rails g paperclip user avatar,按照github上的提示走.(别忘记rake db:migrate, 访问/错误,重启服务器后正常)   
