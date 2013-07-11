@@ -11,3 +11,6 @@ for rails test
    (加入root路径,删除public/index.html后依然无法启动,看log发现是没有执行rake db:create; rake db:migrate. ok 一切正常)  
 3. 在Gemfile中加入gem "paperclip", "~> 3.0", sources改成taobao的果然很快.  
 4. rails g paperclip user avatar,按照github上的提示走.(别忘记rake db:migrate, 访问/错误,重启服务器后正常)   
+5. 搞定.(多了个public/system/目录,里面存放的是上传的相片)  
+
+代码见git@github.com:towonzhou/rails.git  
