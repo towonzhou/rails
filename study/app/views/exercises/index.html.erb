@@ -1,0 +1,57 @@
+<h1>
+welcome to the ruby test
+</h1>
+
+<p>
+这是一个ruby的做题网站
+<p>
+输入文件为 题目号.in (如0.in)
+<p>
+输出文件为 题目号.out (如0.out)
+
+<p>
+下面一个测试的小例子
+<p>
+问题:
+<p>
+输入文件(0.in)中有两个数字
+<p>
+1
+<p>
+2
+<p>
+请算出这两个数字的和,然后把和输出到输出文件(0.out)
+
+
+<p>
+代码文件叫0.rb(名字随便),代码清单如下
+
+<p>
+file_in = File.open("public/0.in", 'r')
+<p>
+file_out = File.open("public/0.out", 'w+')
+<p>
+file_out.write( file_in.gets.to_i + file_in.gets.to_i )
+<p>
+file_in.close
+<p>
+file_out.close
+
+<p>
+(不要忘记close文件)
+
+<p>
+若程序执行正确则返回一个ok界面,若出错则返回wrong界面
+
+<p>
+试一试例子程序吧!!把代码提交即可
+
+<%= form_for @exercise do |form| %>
+  <div class="field">
+    <%= form.file_field :code %>
+  </div>
+  <div class="actions">
+    <%= form.submit :提交%>
+  </div>
+<% end %>
+

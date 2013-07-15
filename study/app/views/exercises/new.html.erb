@@ -1,0 +1,16 @@
+<h1>New exercise</h1>
+
+<%= form_for @exercise do |form| %>
+  <div class="field">
+    <%= form.label :title%><br />
+    <%= form.text_field :title%>
+  </div>
+  <div class="field">
+    <%= form.label :code %><br />
+    <%= form.file_field :code %>
+  </div>
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
+
