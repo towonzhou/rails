@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  name: MyString
+  level: MyString
+  cer_nu: MyString
+  ap_data: MyString
+  get_data: MyString
+  city: MyString
+
+two:
+  name: MyString
+  level: MyString
+  cer_nu: MyString
+  ap_data: MyString
+  get_data: MyString
+  city: MyString
