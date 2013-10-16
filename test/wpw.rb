@@ -48,13 +48,20 @@ module Wpw
       http_response = nil
       EM.run do
         url = "http://test.api.wangpiao.com"
+        if target.to_s == "Sell_LockSeatPage"
+          url = "http://test.api.wangpiao.com/lockseat/b/default.aspx"
+          query[:Sign] = Digest::MD5.hexdigest(user_name + target.to_s + key)
+          require 'active_support'
+          require 'active_support/cache/dalli_store'
+          `google-chrome "#{url}?#{query.to_param}"`
+          return
+        end
 
         Fiber.new {
           http_response = async_fetch(url, :body => query).response
           EM.stop
         }.resume
       end
-      debug query
       debug http_response
       json = JSON.parse http_response
       p json["Data"]
@@ -79,4 +86,15 @@ module Wpw
   end
 end
 
-Wpw::Request.new.Sell_LockSeatPage
+sig = Time.now.utc.strftime("%Y%m%d%H%M%S%4N") #流水号,当前utc时间,精确到秒后四位小数
+mobile = "18620414923"
+
+def h m, r
+  Hash[m,r]
+end
+
+seqno = "5192908"
+Wpw::Request.new.Sell_LockSeatPage h(:SeqNo, seqno), h(:LockFlag, sig)
+#Wpw::Request.new.Sell_ApplyTicket h(:SID,serial_num), h(:PayType,9998), h(:Mobile, mobile), h(:MsgType,2), h(:Amount, 30.00), h(:UserAmount, 40.00), h(:GoodsType,1)
+
+
