@@ -122,8 +122,8 @@ end
 #场次列表
 #Imqq::Request.new.qryShowList h(:cityid, city_id), h(:filmname, film_name)
 #座位图
-showid = "1212302"
-Imqq::Request.new.qrySeat h(:showid, showid)
+#showid = "1212302"
+#Imqq::Request.new.qrySeat h(:showid, showid)
 #锁座
 #seatid = "239362"
 #Imqq::Request.new.lockSeat h(:userphone, mobile), h(:showid, showid), h(:seats,seatid)
