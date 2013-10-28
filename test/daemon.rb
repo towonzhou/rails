@@ -154,3 +154,139 @@ class Daemon
   end
 
 end
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.008  000.008: --- VIM STARTING ---
+000.114  000.106: Allocated generic buffers
+000.212  000.098: locale set
+000.231  000.019: GUI prepared
+000.234  000.003: clipboard setup
+000.242  000.008: window checked
+002.813  002.571: inits 1
+002.823  000.010: parsing arguments
+002.825  000.002: expanding arguments
+002.844  000.019: shell init
+005.169  002.325: xsmp init
+005.986  000.817: Termcap init
+006.070  000.084: inits 2
+006.242  000.172: init highlight
+006.589  000.164  000.164: sourcing /usr/share/vim/vimfiles/archlinux.vim
+006.642  000.312  000.148: sourcing /etc/vimrc
+007.276  000.320  000.320: sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+007.429  000.564  000.244: sourcing /usr/share/vim/vim74/syntax/synload.vim
+027.627  000.810  000.810: sourcing /home/zhou/.vim/ftdetect/ruby.vim
+027.791  020.309  019.499: sourcing /usr/share/vim/vim74/filetype.vim
+027.836  021.056  000.183: sourcing /usr/share/vim/vim74/syntax/syntax.vim
+027.940  000.011  000.011: sourcing /usr/share/vim/vim74/filetype.vim
+027.993  000.009  000.009: sourcing /usr/share/vim/vim74/filetype.vim
+028.075  000.043  000.043: sourcing /usr/share/vim/vim74/ftplugin.vim
+028.126  000.010  000.010: sourcing /usr/share/vim/vim74/filetype.vim
+028.200  000.036  000.036: sourcing /usr/share/vim/vim74/indent.vim
+031.608  000.211  000.211: sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+031.920  025.220  003.844: sourcing $HOME/.vimrc
+031.929  000.155: sourcing vimrc file(s)
+037.327  005.258  005.258: sourcing /home/zhou/.vim/plugin/NERD_commenter.vim
+042.316  004.828  004.828: sourcing /home/zhou/.vim/plugin/NERD_tree.vim
+042.835  000.450  000.450: sourcing /home/zhou/.vim/plugin/neocomplcache.vim
+043.618  000.754  000.754: sourcing /home/zhou/.vim/plugin/rails.vim
+044.008  000.352  000.352: sourcing /home/zhou/.vim/plugin/snipMate.vim
+045.092  001.053  001.053: sourcing /home/zhou/.vim/plugin/supertab.vim
+045.409  000.097  000.097: sourcing /usr/share/vim/vim74/plugin/getscriptPlugin.vim
+045.728  000.292  000.292: sourcing /usr/share/vim/vim74/plugin/gzip.vim
+045.972  000.208  000.208: sourcing /usr/share/vim/vim74/plugin/matchparen.vim
+046.594  000.599  000.599: sourcing /usr/share/vim/vim74/plugin/netrwPlugin.vim
+046.694  000.051  000.051: sourcing /usr/share/vim/vim74/plugin/rrhelper.vim
+046.765  000.036  000.036: sourcing /usr/share/vim/vim74/plugin/spellfile.vim
+047.026  000.233  000.233: sourcing /usr/share/vim/vim74/plugin/tarPlugin.vim
+047.177  000.110  000.110: sourcing /usr/share/vim/vim74/plugin/tohtml.vim
+047.382  000.176  000.176: sourcing /usr/share/vim/vim74/plugin/vimballPlugin.vim
+047.674  000.251  000.251: sourcing /usr/share/vim/vim74/plugin/zipPlugin.vim
+048.599  000.707  000.707: sourcing /home/zhou/.vim/after/plugin/snipMate.vim
+048.607  001.223: loading plugins
+048.626  000.019: inits 3
+048.866  000.240: reading viminfo
+051.130  002.264: setup clipboard
+051.144  000.014: setting raw mode
+051.166  000.022: start termcap
+051.182  000.016: clearing screen
+051.476  000.294: opening buffers
+051.721  000.245: BufEnter autocommands
+051.726  000.005: editing files in windows
+052.066  000.119  000.119: sourcing /home/zhou/.vim/nerdtree_plugin/exec_menuitem.vim
+052.520  000.417  000.417: sourcing /home/zhou/.vim/nerdtree_plugin/fs_menu.vim
+053.318  001.056: VimEnter autocommands
+053.323  000.005: before starting main loop
+053.815  000.492: first screen update
+053.817  000.002: --- VIM STARTED ---
+
+
+times in msec
+ clock   self+sourced   self:  sourced script
+ clock   elapsed:              other lines
+
+000.006  000.006: --- VIM STARTING ---
+000.103  000.097: Allocated generic buffers
+000.210  000.107: locale set
+000.240  000.030: GUI prepared
+000.243  000.003: clipboard setup
+000.253  000.010: window checked
+002.737  002.484: inits 1
+002.746  000.009: parsing arguments
+002.747  000.001: expanding arguments
+002.762  000.015: shell init
+004.374  001.612: xsmp init
+004.705  000.331: Termcap init
+004.754  000.049: inits 2
+004.880  000.126: init highlight
+005.112  000.116  000.116: sourcing /usr/share/vim/vimfiles/archlinux.vim
+005.147  000.219  000.103: sourcing /etc/vimrc
+005.621  000.230  000.230: sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+005.760  000.436  000.206: sourcing /usr/share/vim/vim74/syntax/synload.vim
+026.403  000.812  000.812: sourcing /home/zhou/.vim/ftdetect/ruby.vim
+026.558  020.748  019.936: sourcing /usr/share/vim/vim74/filetype.vim
+026.602  021.341  000.157: sourcing /usr/share/vim/vim74/syntax/syntax.vim
+026.704  000.011  000.011: sourcing /usr/share/vim/vim74/filetype.vim
+026.754  000.009  000.009: sourcing /usr/share/vim/vim74/filetype.vim
+026.834  000.042  000.042: sourcing /usr/share/vim/vim74/ftplugin.vim
+026.885  000.009  000.009: sourcing /usr/share/vim/vim74/filetype.vim
+026.959  000.036  000.036: sourcing /usr/share/vim/vim74/indent.vim
+030.250  000.205  000.205: sourcing /usr/share/vim/vim74/syntax/syncolor.vim
+030.541  025.344  003.691: sourcing $HOME/.vimrc
+030.549  000.106: sourcing vimrc file(s)
+038.018  007.341  007.341: sourcing /home/zhou/.vim/plugin/NERD_commenter.vim
+042.337  004.201  004.201: sourcing /home/zhou/.vim/plugin/NERD_tree.vim
+042.833  000.444  000.444: sourcing /home/zhou/.vim/plugin/neocomplcache.vim
+043.387  000.529  000.529: sourcing /home/zhou/.vim/plugin/rails.vim
+043.750  000.337  000.337: sourcing /home/zhou/.vim/plugin/snipMate.vim
+045.209  001.421  001.421: sourcing /home/zhou/.vim/plugin/supertab.vim
+045.504  000.081  000.081: sourcing /usr/share/vim/vim74/plugin/getscriptPlugin.vim
+045.765  000.237  000.237: sourcing /usr/share/vim/vim74/plugin/gzip.vim
+045.982  000.193  000.193: sourcing /usr/share/vim/vim74/plugin/matchparen.vim
+046.642  000.637  000.637: sourcing /usr/share/vim/vim74/plugin/netrwPlugin.vim
+046.741  000.052  000.052: sourcing /usr/share/vim/vim74/plugin/rrhelper.vim
+046.809  000.034  000.034: sourcing /usr/share/vim/vim74/plugin/spellfile.vim
+047.062  000.225  000.225: sourcing /usr/share/vim/vim74/plugin/tarPlugin.vim
+047.208  000.106  000.106: sourcing /usr/share/vim/vim74/plugin/tohtml.vim
+047.461  000.227  000.227: sourcing /usr/share/vim/vim74/plugin/vimballPlugin.vim
+047.804  000.275  000.275: sourcing /usr/share/vim/vim74/plugin/zipPlugin.vim
+048.492  000.568  000.568: sourcing /home/zhou/.vim/after/plugin/snipMate.vim
+048.499  001.042: loading plugins
+048.517  000.018: inits 3
+048.758  000.241: reading viminfo
+051.164  002.406: setup clipboard
+051.179  000.015: setting raw mode
+051.200  000.021: start termcap
+051.226  000.026: clearing screen
+051.529  000.303: opening buffers
+051.779  000.250: BufEnter autocommands
+051.784  000.005: editing files in windows
+052.129  000.120  000.120: sourcing /home/zhou/.vim/nerdtree_plugin/exec_menuitem.vim
+052.565  000.400  000.400: sourcing /home/zhou/.vim/nerdtree_plugin/fs_menu.vim
+053.369  001.065: VimEnter autocommands
+053.374  000.005: before starting main loop
+053.859  000.485: first screen update
+053.861  000.002: --- VIM STARTED ---
